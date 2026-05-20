@@ -1,20 +1,27 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+
 package sombrecargaysombreescritura;
 
-/**
- *
- * @author Yeti
- */
+
 public class SombrecargaYSombreescritura {
 
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+        Animal ani = new Animal();
+        Perro perr = new Perro();
+        Gato gat = new Gato();
+        
+        gat.setNombreGato("Penitente");
+        gat.hacerSonido();
+        
+        perr.setNombrePerro("Set");
+        perr.hacerSonido();
+        
+        
+        ani.hacerSonido();
+        ani.hacerSonido("Camello");
+        ani.hacerSonido("Loro", "pio pio");
+        
+        
     }
     
 }
