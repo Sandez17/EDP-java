@@ -1,18 +1,17 @@
 
 package clase.abstracta;
 
-public class Cuadrado extends Figura{
+public class Cuadrado implements Figura{
     private double radio;
 
     public Cuadrado() {
     }
 
-  
-    public Cuadrado(double radio, double x, double y) {
-        super(x, y);
+    public Cuadrado(double radio) {
         this.radio = radio;
     }
-    
+
+  
       public double getRadio() {
         return radio;
     }
