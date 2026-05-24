@@ -7,12 +7,20 @@ public class Cuadrado extends Figura{
     public Cuadrado() {
     }
 
+  
     public Cuadrado(double radio, double x, double y) {
         super(x, y);
         this.radio = radio;
     }
     
-    
+      public double getRadio() {
+        return radio;
+    }
+
+    public void setRadio(double radio) {
+        this.radio = radio;
+    }
+
     
     @Override
     public double calcularArea() {
