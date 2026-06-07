@@ -1,11 +1,10 @@
 
-package pokemonpoo;
+package Logica;
 
-
-public class PokemonPOO {
+public class Pokedex {
 
     public static void main(String[] args) {
-       
+      
     }
     
 }
