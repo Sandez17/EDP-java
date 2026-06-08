@@ -4,7 +4,7 @@ public interface IElectrico {
 
     public void atacarImpactrueno();
 
-    public void actacarPunioFuego();
+    public void actacarPunioTrueno();
 
     public void atacarRayo();
 

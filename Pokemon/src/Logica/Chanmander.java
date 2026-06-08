@@ -1,6 +1,9 @@
 package Logica;
 
-public class Chanmander extends Pokemon {
+public class Chanmander extends Pokemon implements iFuego {
+
+    public Chanmander() {
+    }
 
     @Override
     protected void atacarPlacaje() {
@@ -15,6 +18,21 @@ public class Chanmander extends Pokemon {
     @Override
     protected void atacarMordisco() {
         System.out.println("Ataque Mordisco!!. Chanmander!!");
+    }
+
+    @Override
+    public void atacarPunioFuego() {
+        System.out.println("Ataque Punio Fuego!!. Chanmander!!");
+    }
+
+    @Override
+    public void atacarAscuas() {
+        System.out.println("Ataque Ascuas!!. Chanmander!!");
+    }
+
+    @Override
+    public void atacarLanzaLlamas() {
+        System.out.println("Ataque Lanza Llamas!!. Chanmander!!");
     }
 
 }
