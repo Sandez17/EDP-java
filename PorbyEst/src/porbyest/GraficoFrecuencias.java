@@ -51,10 +51,7 @@ public class GraficoFrecuencias extends JPanel {
         g2.setColor(Color.BLACK);
         g2.setFont(new Font("Arial", Font.BOLD, 18));
 
-        g2.drawString(
-                "Histograma de No Docentes Presentes",
-                150,
-                30);
+        g2.drawString("Aires acondicionados ecendidos", 100, 30);
 
         // Cuadrícula horizontal
         g2.setColor(new Color(220, 220, 220));
@@ -185,7 +182,7 @@ public class GraficoFrecuencias extends JPanel {
         g2.setColor(Color.BLACK);
 
         g2.drawString(
-                "Cantidad de no docentes",
+                "Cantidad ",
                 getWidth() / 2 - 60,
                 getHeight() - 20);
 
